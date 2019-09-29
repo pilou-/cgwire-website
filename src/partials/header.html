@@ -14,10 +14,9 @@
       <div class="navbar-start flexrow locales">
         <a href="/fr" class="flexrow-item navbar-lang-item">FR</a>
         <a href="/en" class="flexrow-item navbar-lang-item">EN</a>
-        <a href="/cn" class="flexrow-item navbar-lang-item">汉语</a>
       </div>
       <div class="navbar-end">
-        <div class="navbar-item has-drodown is-hoverable {{#if_eq name "solution"}}active{{/if_eq}}">
+        <div class="navbar-item has-dropdown is-hoverable {{#if_eq name "solution"}}active{{/if_eq}}">
           <a class="navbar-link">
             <span class="navbar-item-title">
               {{__ 'header title solutions'}}
@@ -44,9 +43,38 @@
             </a>
             <a class="navbar-item flexrow" href="https://cg-jobs.com">
               <img class="flexrow-item icon" src="/images/job-board.svg">
-              <span class="flexrow-item">Job Board</span>
+              <span class="flexrow-item">job board</span>
             </a>
 
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable {{#if_eq name "usecase"}}active{{/if_eq}}">
+          <a class="navbar-link">
+            <span class="navbar-item-title">
+              {{__ 'header title usecase'}}
+            </span>
+          </a>
+     
+          <div class="navbar-dropdown">
+            <a 
+              class="navbar-item flexrow" 
+              href="/{{ locale }}/3d.html"
+            >
+              <span class="flexrow-item">{{__ 'header title short'}}</span>
+            </a>
+            <a 
+              class="navbar-item flexrow"  
+              href="/{{ locale }}/2d.html"
+            >
+              <span class="flexrow-item">{{__ 'header title tvshow'}}</span>
+            </a>
+            <!--a class="navbar-item flexrow" href="/{{ locale }}/vfx.html">
+              <span class="flexrow-item">{{__ 'header title featurefilm'}}</span>
+            </a-->
+            <a class="navbar-item flexrow" href="/{{ locale }}/schools.html">
+              <span class="flexrow-item">{{__ 'header title school'}}</span>
+            </a>
           </div>
         </div>
 
@@ -64,9 +92,6 @@
           <span class="navbar-item-title">
             {{__ 'header title community'}}
           </span>
-        </a>
-        <a class="navbar-item" href="https://medium.com/cgwire">
-          {{__ 'header title blog'}}
         </a>
         <a class="navbar-item signin" href="https://account.cg-wire.com/login">
           {{__ 'header sign in'}}

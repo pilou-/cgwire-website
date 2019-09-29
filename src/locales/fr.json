@@ -151,8 +151,6 @@
 	"spreadsheets breakdown title": "Gérez votre casting",
 	"header title locales": "Locales",
 	"spreadsheets retake title": "Suivi des retakes",
-	"pricing support license title": "Licences support pour installation locales",
-	"pricing support license details": "L'aide à l'installation, le monitoring et la gestion d'une instance locale de Kitsu est disponible au même prix.",
 	"pricing support license title": "Installation locale",
 	"pricing support license details": "Nous fournissons du service pour les studios voulant une installation locale. Nous gérons l'installation, les mises à jour, les sauvegardes, le monitoring la synchronisation multisite et nous proposons une synchronisation multi-sites. Contactez nous pour un devis.",
 	"pricing school title": "Prix pour les Écoles d'Animation",
@@ -209,5 +207,10 @@
 	"pricing opensource title": "Libre et Open Source",
 	"pricing opensource details": "Kitsu est libre et open source, ce qui signifie qu'il peut être utilisé et modifié par vos équipes librement.",
 	"pricing opensource install": "Instructions d'installation",
-	"about support title": "Ils nous aident"
+	"about support title": "Ils nous aident",
+	"header title usecase": "header title usecase",
+	"header title short": "header title short",
+	"header title tvshow": "header title tvshow",
+	"header title featurefilm": "header title featurefilm",
+	"header title school": "header title school"
 }

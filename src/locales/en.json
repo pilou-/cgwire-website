@@ -215,8 +215,12 @@
 	"header title tvshow": "2D TV Shows",
 	"header title featurefilm": "VFX Feature Films",
 	"header title school": "CG Schools",
-	"3d title": "3d title",
-	"3dshorts title": "3dshorts title",
-	"3Dshorts title": "3Dshorts title",
-	"3Dshorts supervisor title": "3Dshorts supervisor title"
+	"3dshorts title": "How CGWire Kitsu can help you with your 3D Shorts",
+	"3Dshorts supervisor title": "For Supervisors",
+	"3Dshorts supervisor explaination one": "Supervisors work on several productions at the same time. They have to go fast, and always be up to date.",
+	"3Dshorts supervisor explaination two": "That's why Kitsu allows them to swith quickly between the running productions. And thanks to its real-time capabilities, all pages display always the latest data.",
+	"3Dshorts supervisor explaination three": "Kitsu allows you to store your most used fiters so you can quickly find your retakes or your pending reviews.",
+	"3Dshorts supervisor explaination four": "Through task assignation, it's very easy to send information to the right person.",
+	"2dtvshows title": "2dtvshows title",
+	"schools title": "schools title"
 }
